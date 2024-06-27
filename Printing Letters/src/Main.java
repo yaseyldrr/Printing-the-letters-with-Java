@@ -10,7 +10,7 @@ public class Main {
             char letter = text.charAt(i);
             if (letter == ' ') // if it's a space, skip
                 continue;
-                System.out.println( i + "letter = " + letter);
+                System.out.println( i + ". " + "letter = " + letter);
         }
     }
 }
